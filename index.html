@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Ausma pens site </title>
+<style>
+.sidenav {
+	height: 100%;
+	width: 100px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #9e3039;
+	overflow-x: hidden;
+	padding-top: 10px;
+}
+
+.sidenav a{
+	padding: 4px 6px 4px 12px;
+	text-decoration: none;
+	font-size: 16px;
+	color: lightgray;
+	display: block;
+}
+
+.sidenav a:hover {
+	color: #f1f1f1;
+}
+
+.main {
+	margin-left: 100px;
+	padding: 0px 10px;
+}
+
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+@media screen and (max-height: 450px){
+	.sidenav {padding-top: 10px;}
+	.sidenav a {font-size: 16px;}
+}
+</style>
+</head>
+
+<div class="sidenav">
+	<a href="abouteng.html"> About us </a>
+	<a href="contactseng.html"> Contact us </a>
+	<a href="productseng.html"> Our products </a>
+	<a href="newseng.html"> News </a>
+</div>
+
+<body>
+<div class="main">
+<h1 style="text-align:center;font-family:tahoma;"> Welcome to the Ausma pens website! </h1>
+<img src="logo.png" alt="Our logo" class="center" style="width:120px;height:120px;">
+<hr>
+<p> We are a student company making fountain pens with glass nibs. </p>
+<p> Check out what we <a href="productseng.html">have to offer!</a> </p>
+<p> Otherwise, please use the sidebar to navigate! </p>
+
+</div>
+</body>
+</html>
